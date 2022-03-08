@@ -1,0 +1,34 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(20, 154, 216));
+}
+
+.title{
+    text-align: center;
+    position: center;
+    font-size: 'Courier New', Courier, monospace;
+    background-color: white;
+    border-radius: 15px;
+    padding: 0%;
+
+}
+
+.countainer{
+    text-align: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50px;
+    padding: 35px;
+}
+
+button{
+    background: rgb(0, 34, 51);
+    color: white; 
+    font-size: 30px, 'Courier New', Courier, monospace;
+    padding: 8px 20px;
+    cursor: pointer;
+    border: none;
+}

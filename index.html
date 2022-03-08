@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio src="alarme.mp3" style="display: none;"></audio>
+
+    <div class="title">
+        <h2>Stopwatch</h2>
+    </div>
+
+    <div class="countainer">
+        <h3>Minutes:</h3>
+        <select name="minutos" id="minutos"></select>
+
+        <h3>Seconds:</h3>
+        <select name="segundos" id="segundos"></select>
+            <br>
+            <br>
+        <button id="comecar">Start!</button>
+
+        <div id="display">
+            <h3></h3>
+        </div><!--display-->
+
+    </div><!--countainer-->
+
+    <script src="form.js"></script>
+    
+</body>
+</html>
